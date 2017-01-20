@@ -1,0 +1,24 @@
+{
+  "name": "stupid_flv_capture",
+  "version": "1.0.0",
+  "description": "flv视频截图",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuangzhuang/stupid_flv_capture.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhuangzhuang/stupid_flv_capture/issues"
+  },
+  "homepage": "https://github.com/zhuangzhuang/stupid_flv_capture#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "flv.js": "^1.1.0",
+    "jquery": "^3.1.1"
+  }
+}

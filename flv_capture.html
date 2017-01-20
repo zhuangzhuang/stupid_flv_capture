@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>傻瓜式截图</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        .setting{
+            width: 800px;
+            height: 600px;
+        }
+        #output li {            
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <label for="video_src">视频源:</label>
+    <input  type="text" id="video_src">
+    <label>时间:</label>
+    <input type="text" id="seek_start" placeholder="起始时间">
+    <input type="text" id="seek_end" placeholder="终止时间">
+    <button id="btn-capture">截图</button>    
+    <video id="dummy_video" hidden></video>
+    <hr>
+
+    <ul id="output">        
+    </ul>
+    <script src="node_modules/flv.js/dist/flv.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="dist/index.js"></script>
+</body>
+
+</html>
